@@ -4,9 +4,9 @@ Allow you to display your gTasks todo-list in Conky.
 
 setup
 ------------------
-depends on: lua, ruby
+depends on: lua, lua-socket, lua-ssl, lua-json
 
-1.  download **gtasks.lua** and **gtasks.rb**
+1.  download **gtasks.lua**
 2.  in your **.conkyrc**, before **TEXT**, add:
         lua_load /path/to/gtasks.lua
 3.  in your **.conkyrc**, after **TEXT**, add:
